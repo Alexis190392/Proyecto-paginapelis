@@ -16,7 +16,7 @@
   background: #090445 !important;
   min-height: 500px;
   margin-bottom: 0px !important;
-  border-radius: 0px!important;
+  border-radius: 0px !important;
 }
 
 .titulo-cartelera{
@@ -45,5 +45,17 @@
 @media (max-width: 770px) {
   .rigth-column{
     display: none;
+  }
+/*14*/
+  .movies-row{
+    min-height: 250px;
+  }
+
+  .movies-column{
+    min-height: 230px;
+  }
+
+  -jumbotron{
+    min-height: 350px;
   }
 }
