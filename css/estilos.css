@@ -1,3 +1,5 @@
+/**{color: white;}*/
+
 .cinema-body{
   background-image: url("../img/fondo.jpg");
   background-position: center;
@@ -8,9 +10,15 @@
 
 .navbar{
   max-height: 10%;
-  background: #6F398A;
+  background: #AFAFAF;
   top: 0px;
   opacity: 0.5;
+  margin-bottom: 0px !important;
+}
+
+.container{
+  width: 80% !important;
+  margin-top: 0px !important;
 }
 
 .logo-img{
@@ -26,7 +34,7 @@
 
 .jumbotron{
   background-image: url("../img/portada.jpg") !important;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   min-height: 500px;
   margin-top: 0px !important;
@@ -42,7 +50,7 @@
 .jumbotron-img{
   margin-top: 20px;
   filter: invert(100%);
-
+  width: 75%;
 }
 
 .jumbotron-text{
@@ -50,6 +58,7 @@
   color: white;
   margin-top: 20px;
   text-decoration: none;
+
 }
 
 .redes-sociales{
@@ -67,8 +76,16 @@
   background: #282455;
 }
 
+.titulo-text{
+  font-size: 18px;
+  font-weight: bolder;
+  color: white;
+  padding: 10px;
+
+}
+
 .movies-row{
-  background: #3826F9;
+  background-color: rgba(56,38,249,0.8);
   min-height: 350px;
   padding-left: 15px;
   padding-right: 15px;
@@ -76,9 +93,20 @@
 
 .movies-column{
   margin-top: 5px;
-  background: #0B007E;
+  color: white;
+  background: rgba(11,0,126,0.5);
   min-height: 330px !important;
-  border: 1px dashed gray;
+}
+
+.movie-title{
+  color: white;
+}
+
+.img-movies{
+  height: 260px;
+  width: auto;
+  padding: 6px;
+  margin-top: 22px;
 }
 
 .left-column{
